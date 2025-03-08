@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+   /* box-shadow: #555555;*/
+}
+
+.resume-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.sidebar {
+    background-color: rgb(31, 36, 40);
+    width: 250px;
+    text-align: center;
+    color: white;
+    height:100vh;
+    margin: 0;
+}
+
+.sidebar .profile img {
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    background-image: -webkit-linear-gradient();
+}
+
+.sidebar h2, .sidebar p {
+    text-align: center;
+}
+
+.sidebar .skills ul {
+    list-style: none;
+    padding: 0%;
+}
+
+.sidebar  {
+    background: darkslategray;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow:3px 3px 10px black;
+
+}
+
+
+.content {
+    padding: 10px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    margin-right: 0;
+}
+
+.content h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.career, .job, .Education, .project{
+    margin-bottom: 20px;
+    background-color: rgb(156, 217, 237);
+    padding: 10px;
+    border-radius:10px;
+    border-left: 5px solid darkslategray;
+    box-shadow:3px 3px 10px black;
+}
+
+.job h3, .education h3, .project h3 {
+    margin: 10px 0;
+    color: #333;
+
+}
+
+.content p {
+    margin: 5px 0;
+    color: #555;
+}
+
+li{
+    padding: 5px;
+    background-color:lightgrey;
+    color:darkslategray;
+    margin: 5px;
+}
